@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        refresh.setRefreshHeader(new TodayNewsHeader(this));
+        refresh.setRefreshHeader(new SvgHeader(this));
 
         refresh.setOnRefreshListener(new OnRefreshListener() {
             @Override
