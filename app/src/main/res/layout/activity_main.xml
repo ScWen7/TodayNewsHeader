@@ -7,53 +7,63 @@
     tools:context="com.scwen.svgpathproject.MainActivity">
 
     <!--<com.scwen.svgpathproject.MapView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content" />-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
 
 
     <!--<com.scwen.svgpathproject.NewRefreshView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_gravity="center"-->
-        <!--android:id="@+id/refresh_view"-->
-        <!--android:layout_height="wrap_content" />-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:id="@+id/refresh_view"-->
+    <!--android:layout_height="wrap_content" />-->
 
 
     <!--<Button-->
-        <!--android:id="@+id/btn"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:text="修改"-->
-        <!--android:layout_height="wrap_content" />-->
+    <!--android:id="@+id/btn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:text="修改"-->
+    <!--android:layout_height="wrap_content" />-->
 
 
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout
-        android:id="@+id/refresh"
+    <!--<com.scwang.smartrefresh.layout.SmartRefreshLayout-->
+    <!--android:id="@+id/refresh"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@color/colorAccent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:text="text1 "-->
+    <!--android:gravity="center"-->
+    <!--android:layout_height="500dp" />-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:text="text2 "-->
+    <!--android:gravity="center"-->
+    <!--android:layout_height="500dp" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--</android.support.v4.widget.NestedScrollView>-->
+    <!--</com.scwang.smartrefresh.layout.SmartRefreshLayout>-->
+
+
+    <!--<com.scwen.svgpathproject.LoadingView-->
+    <!--android:id="@+id/loading"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp" />-->
+
+    <com.scwen.svgpathproject.DotProgressView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <android.support.v4.widget.NestedScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="vertical"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:text="text1 "
-                    android:gravity="center"
-                    android:layout_height="500dp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:text="text2 "
-                    android:gravity="center"
-                    android:layout_height="500dp" />
-            </LinearLayout>
-
-
-
-        </android.support.v4.widget.NestedScrollView>
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+        android:layout_height="wrap_content" />
 </FrameLayout>
